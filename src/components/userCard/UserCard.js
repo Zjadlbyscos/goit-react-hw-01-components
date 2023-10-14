@@ -25,7 +25,7 @@ export default function UserCard({ username, tag, location, avatar, stats }) {
         </li>
       </ul>
     </div>
-  );
+  )
 }
 
 UserCard.propTypes = {
