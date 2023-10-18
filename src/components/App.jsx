@@ -1,12 +1,13 @@
-import dataUser from 'data/user.json';
-import UserCard from './userCard/UserCard'
-import data from 'data/data.json';
+
 import Statistics from './statistics/Statistics';
-import friends from 'data/friends.json'
+import UserCard from './userCard/UserCard'
 import FriendList from './friendList/FriendList';
-import transList from 'data/transactions.json'
 import TransactionHistory from './transactionHistory/TransactionHistory';
 
+import data from 'data/data.json';
+import dataUser from 'data/user.json';
+import friends from 'data/friends.json'
+import transList from 'data/transactions.json'
 export const App = () => {
   return (
     <>
